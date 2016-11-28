@@ -62,7 +62,8 @@
     "handlebars": "bin/handlebars"
   },
   "scripts": {
-    "test": "grunt"
+    "test": "grunt",
+     "postinstall": "git submodule update --init && grunt build"
   },
   "jspm": {
     "main": "handlebars",
