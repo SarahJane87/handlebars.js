@@ -62,8 +62,7 @@
     "handlebars": "bin/handlebars"
   },
   "scripts": {
-    "test": "grunt",
-     "postinstall": "grunt build"
+    "test": "grunt"
   },
   "jspm": {
     "main": "handlebars",
